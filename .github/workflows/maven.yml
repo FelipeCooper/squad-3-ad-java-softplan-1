@@ -1,6 +1,9 @@
 name: Java CI
 
-on: [push]
+on: 
+ push:
+    tags:
+      - 'v*'
 
 jobs:
   build:
@@ -23,3 +26,4 @@ jobs:
         name: felipecooper/errorlogger-teste
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+        tags_name: true
