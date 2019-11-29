@@ -17,7 +17,7 @@ em suas aplicações, a equipe optou por este tipo de autenticação.
 ##### Requisitos:
  * Java JDK
  * Maven
-
+ 
 
 ##### Para instalar o projeto é necessária a realização dos seguintes passos:
 ###### 1. Abra o terminal e digite na pasta raiz do projeto:
